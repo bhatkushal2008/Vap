@@ -1,0 +1,70 @@
+body {
+    background-color: lightblue;
+    min-height: 100vh;
+
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    background-color: white;
+
+    width: 400px;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.register-box h1 {
+    color: darkblue;
+}
+
+.register-box label {
+    display: block;
+
+    text-align: left;
+
+    margin-top: 15px;
+}
+
+.register-box input {
+    width: 90%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+.register-box button {
+    padding: 10px 25px;
+
+    margin-top: 20px;
+
+    background-color: navy;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.register-box button:hover {
+    background-color: darkblue;
+}
+
+.message {
+    color: red;
+}
